@@ -14,7 +14,7 @@ int power(int a,int n)
 		return ((a%mod)*1LL*(res%mod)*(res%mod))%mod;
 	}
 }
-
+//O(log(n))
 int main()
 {
 
